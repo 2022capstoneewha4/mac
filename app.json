@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mac",
-    "slug": "mac",
+    "name": "planner",
+    "slug": "planner",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

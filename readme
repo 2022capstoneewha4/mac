@@ -1,0 +1,5 @@
+npm install @react-navigation/drawer
+npm install react-native-gesturehandler react-native-reanimated
+
+### reset babel plugin and reset cache
+expo r -c
