@@ -35,6 +35,8 @@ export default function App() {
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Authorization">
 
+        <Drawer.Screen name="sampleLayout" component={sampleLayout} />
+
         <Drawer.Screen name="Splash" component={Splash} />
         <Drawer.Screen name="Authorization" component={Authorization} />
         <Drawer.Screen name="Login" component={Login} />
