@@ -1,3 +1,4 @@
+### npm install 이용해서 한번에 설치
 npm install @react-navigation/drawer
 npm install react-native-gesturehandler react-native-reanimated
 
