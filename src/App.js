@@ -3,8 +3,6 @@ import { Button, View } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 
-import sampleLayout from './screen/sampleLayout';
-
 import Splash from './screen/Splash';
 import Authorization from './screen/Authorization';
 import Login from './screen/Login';
@@ -34,8 +32,6 @@ export default function App() {
   return (
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Authorization">
-
-        <Drawer.Screen name="sampleLayout" component={sampleLayout} />
 
         <Drawer.Screen name="Splash" component={Splash} />
         <Drawer.Screen name="Authorization" component={Authorization} />
