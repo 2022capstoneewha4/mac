@@ -7,6 +7,9 @@ export default function Screen({ navigation }) {
     return (
       <SafeAreaView style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <StatusBar/>
+        <Header/>
+        <Contents/>
+        <Footer/>
       </SafeAreaView>
     );
 }
