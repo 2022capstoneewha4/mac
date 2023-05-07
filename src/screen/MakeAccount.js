@@ -10,7 +10,7 @@ export default function Screen({ navigation }) {
         <View>
           <Text style={boxTextStyles.grey_long}>Sign Up</Text>
 
-          <View style={boxAreaStyles.grey_long}>
+          <View style={[boxAreaStyles.grey_long,{width: 286, height: 500}]}>
 
             <View style={boxPosStyles.green_input}>
               <Text style={boxTextStyles.green_input}>ID</Text>

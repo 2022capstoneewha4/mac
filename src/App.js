@@ -13,10 +13,10 @@ import RoomList from './screen/RoomList';
 import RoomDetail from './screen/RoomDetail';
 import MyModel from './screen/MyModel';
 
-import TakeModel from './screen/TakeModel';
-import ExplainModel from './screen/ExplainModel';
-import ChangeModel from './screen/ChangeModel';
-import UploadModel from './screen/UploadModel';
+import VoiceRecordModel from './screen/VoiceRecordModel';
+import TextInputModel from './screen/TextInputModel';
+import FinalModel from './screen/FinalModel';
+import ImageSendModel from './screen/ImageSendModel';
 
 import Explore from './screen/Explore';
 import OtherModel from './screen/OtherModel';
@@ -25,6 +25,7 @@ import Settings from './screen/Settings';
 import ChangeAccount from './screen/ChangeAccount';
 import SetRoom from './screen/SetRoom';
 import MakeRoom from './screen/MakeRoom';
+import ModifyRoom from './screen/ModifyRoom';
 
 const Drawer = createDrawerNavigator();
 
@@ -43,10 +44,10 @@ export default function App() {
         <Drawer.Screen name="RoomDetail" component={RoomDetail} />
         <Drawer.Screen name="MyModel" component={MyModel} />
 
-        <Drawer.Screen name="TakeModel" component={TakeModel} />
-        <Drawer.Screen name="ExplainModel" component={ExplainModel} />
-        <Drawer.Screen name="ChangeModel" component={ChangeModel} />
-        <Drawer.Screen name="UploadModel" component={UploadModel} />
+        <Drawer.Screen name="VoiceRecordModel" component={VoiceRecordModel} />
+        <Drawer.Screen name="TextInputModel" component={TextInputModel} />
+        <Drawer.Screen name="ImageSendModel" component={ImageSendModel} />
+        <Drawer.Screen name="FinalModel" component={FinalModel} />
 
         <Drawer.Screen name="Explore" component={Explore} />
         <Drawer.Screen name="OtherModel" component={OtherModel} />
@@ -55,6 +56,7 @@ export default function App() {
         <Drawer.Screen name="SetRoom" component={SetRoom} />
         <Drawer.Screen name="ChangeAccount" component={ChangeAccount} />
         <Drawer.Screen name="MakeRoom" component={MakeRoom} />
+        <Drawer.Screen name="ModifyRoom" component={ModifyRoom} />
 
       </Drawer.Navigator>
     </NavigationContainer>

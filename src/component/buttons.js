@@ -15,6 +15,12 @@ export const buttonPosStyles=StyleSheet.create({
         padding:10,
         flexDirection: 'row',
     },
+    green_long:{
+        padding:10,
+    },
+    square_short:{
+        padding:2
+    },
 });
 
 export const buttonAreaStyles=StyleSheet.create({
@@ -51,6 +57,23 @@ export const buttonAreaStyles=StyleSheet.create({
         borderWidth:1,
         borderColor:'transparent',
     },
+    green_long:{
+        alignItems: 'flex-start',
+        justifyContent: 'center',
+        backgroundColor:'#064635',
+        margin: 10,
+        borderRadius:20,
+        width:width/1.5,
+        height:60,
+        padding:15,
+    },
+    square_short:{
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor:'#F4EEA9',
+        width:116,
+        height: 24,
+    },
 });
 
 export const buttonTextStyles=StyleSheet.create({
@@ -76,5 +99,21 @@ export const buttonTextStyles=StyleSheet.create({
         letterSpacing: 0.25,
         color: 'white',
         marginRight:13,
+    },
+    green_long:{
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: '#F4EEA9',
+        fontWeight: 600,
+        fontSize: 25,
+        lineHeight: 30,
+    },
+    square_short:{
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: '#064635',
+        fontSize: 15,
+        fontWeight: 600,
+        lineHeight: 18.15,
     },
 });

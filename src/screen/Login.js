@@ -25,15 +25,14 @@ export default function Screen({ navigation }) {
                 <TextInput placeholder='+ Password'></TextInput>
               </View>
             </View>
-
           </View>
-
         </View>
-
-        <View style={buttonPosStyles.yellow_short}>
+        <View style={{alignItems:'flex-end'}}>
+        <View style={[buttonPosStyles.yellow_short,]}>
             <TouchableOpacity style={buttonAreaStyles.yellow_short} onPress={() => navigation.navigate("MakeAccount")}>
               <Text style={buttonTextStyles.yellow_short}>Done</Text>
             </TouchableOpacity>
+        </View>
         </View>
       </SafeAreaView>
     );
