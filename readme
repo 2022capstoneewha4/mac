@@ -10,3 +10,5 @@ npm i -g expo-cli
 npx expo-cli upgrade
 npx expo install react-native@0.71.4
 npx expo start
+
+### 루트폴더에서 npm start를 하면 프로젝트 실행할 수 있다.
